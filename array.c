@@ -52,7 +52,7 @@ int main(){
 	char s[] = "Hello";
 	printf("How many letters are in 'Hello'? %d\n\nString Library Demonstrations!\n", len(s));
 
-	char p[10];
+	char p[100];
 	strcpy(p, s);
 
 	printf("s = %s, p = %s\n", s, p);
